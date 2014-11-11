@@ -6,7 +6,7 @@ set :bind, '0.0.0.0'
 set :port, 8080
 
 configure do
-  puts "Running app file"
+  puts "Running app file - hbc3"
   puts "Create database..."
   %x"rake db:create"
   puts "Run migrations..."
